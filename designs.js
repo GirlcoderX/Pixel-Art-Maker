@@ -23,6 +23,9 @@ function makeGrid() {
 
     //Empties the old grid then replaces it with the new grid on submit
     $("#pixelCanvas").empty().append(grid);
+
+    //Return false to prevent default action taken when the form is submitted
+    return false;
 }
 
 $("#sizePicker").submit(makeGrid);
