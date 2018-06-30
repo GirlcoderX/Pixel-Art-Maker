@@ -16,7 +16,7 @@ function makeGrid() {
     for (let i = 1; i <= height; i++) {
         grid += "<tr>"; // Open table row
         for (let j = 1; j <= weight; j++) {
-            grid += "<td></td>" // Append cell to row
+            grid += "<td></td>"; // Append cell to row
         }
         grid += "</tr>"; // Close table row
     };
@@ -36,8 +36,8 @@ function makeGrid() {
         if ($(this).css("background-color") !== defaultColor) {
             $(this).css("background-color", defaultColor);
         } else {
-            $(this).css('background-color', color)
-        };
+            $(this).css('background-color', color);
+        }
     });
 
     //Return false to prevent default action taken when the form is submitted
