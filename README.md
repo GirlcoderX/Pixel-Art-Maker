@@ -1,16 +1,24 @@
 # Pixel Art Maker Project
+The project is about implenting jQuery skills to make a grid and switch between colors in a cell within the grid.
 
-## Table of Contents
+## Geting Started
+The guide will make you understand the project step by step.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+### Prerequisites
+Below are the things you need to know or have in order to run the project.
 
-## Instructions
+#### Technologies
+* HTML
+* Javascript
+* JQuery
+* CSS
 
-To get started, open `designs.js` and start building out the app's functionality.
+#### Tools
+* Visual Studio Code
+* Chrome
+* Git
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+### Running the Project
+First clone the project running `git clone https://github.com/GirlcoderX/pixel-art-maker.git` or downloading the [zip folder](https://github.com/GirlcoderX/pixel-art-maker/archive/master.zip).
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Click on the **index.html** to view in your browser.
